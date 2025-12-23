@@ -130,4 +130,19 @@ main section{
 }
 footer{
     display: flex;
+
+    gap: 3opx;
+    padding: 130px 230px;
+}
+footer input[type="text"]{
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+form input{
+    margin-bottom: 10px;
+    border: none;
 }
