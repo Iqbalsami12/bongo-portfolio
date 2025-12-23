@@ -17,7 +17,19 @@
     border: none;
     border-radius: 5px;
 }
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.section-description{
+    font-size: 18px;
+    color:  rgb(78, 74, 74);
+}
+.secondary-bg{
+    background-color: antiquewhite;
 
+}
 /* nav styles */
 nav{
     display: flex;
@@ -63,4 +75,22 @@ nav ul{
 }
 .banner-content{
     max-width: 580px;
+}
+/* main */
+main{
+    max-width: 1140px;
+    margin: 50px auto;
+}
+/* about */
+.about{
+    padding: 130px 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
 }
