@@ -134,6 +134,9 @@ footer{
     gap: 3opx;
     padding: 130px 230px;
 }
+.footer-column{
+    width: 50%;
+}
 footer input[type="text"]{
     height: 64px;
     border: none;
@@ -142,7 +145,28 @@ footer input[type="text"]{
     margin-bottom: 10px;
     width: 100%;
 }
-form input{
+footer input{
     margin-bottom: 10px;
     border: none;
+}
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .skills-container,footer{
+        flex-direction: column;
+
+    }
+    footer{
+        padding: 20px;
+    }
+    .resume-container{
+     flex-direction: column;   
+    }
+    .footer-column{
+        width: 100%;
+    }
+    footer input[type="text"],footer input[type="email"],footer textarea{
+        width: calc(100% - 40px);
+    }
 }
